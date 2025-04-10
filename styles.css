@@ -8,6 +8,7 @@
 }
 body{
   margin:0;
+  height: 100%;
 }
 #section{
   display:flex;
@@ -28,7 +29,9 @@ body{
 .navbar {
   background-color: black;
   display: flex;
-  
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 .navbar a{
