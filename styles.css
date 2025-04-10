@@ -1,0 +1,44 @@
+#header{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color:yellowgreen;
+  text-align:center;
+  height:50px;
+}
+body{
+  margin:0;
+}
+#section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: springgreen;
+  text-align: center;
+  height:200px;
+  color:white
+
+}
+.bold-text {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+/*style the navigation bar link*/
+.navbar {
+  background-color: black;
+  display: flex;
+  
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+  padding: 14px 20px;
+  text-align:center;
+}
+/*change color on over*/
+.navbar a:hover{
+  color:black;
+  background-color:#ddd;
+}
